@@ -1,0 +1,44 @@
+Stats de Pokémon
+Los Pokémon tienen seis estadísticas principales que determinan su rendimiento en batalla:
+
+1. HP (Puntos de Salud): Indica cuánta salud tiene un Pokémon. Cuando los HP llegan a 0, el Pokémon se debilita.
+2. Ataque: Determina la potencia de los movimientos físicos del Pokémon.
+3. Defensa: Indica la resistencia del Pokémon frente a movimientos físicos.
+4. Ataque Especial: Determina la potencia de los movimientos especiales del Pokémon.
+5. Defensa Especial: Indica la resistencia del Pokémon frente a movimientos especiales.
+6. Velocidad: Determina qué Pokémon ataca primero en una batalla.
+
+
+Influencia de los Elementos (Tipos): Cada Pokémon y cada movimiento tienen un tipo asociado, lo cual influye en la efectividad de los movimientos durante las batallas. Existen 18 tipos de Pokémon, cada uno con sus propias ventajas y desventajas:
+
+1. Normal
+2. Fuego
+3. Agua
+4. Eléctrico
+5. Planta
+6. Hielo
+7. Lucha
+8. Veneno
+9. Tierra
+10. Volador
+11. Psíquico
+12. Bicho
+12. Roca
+13. Fantasma
+14. Dragón
+15. Siniestro
+16. Acero
+17. Hada
+
+Ventajas y Desventajas de los Tipos
+Cada tipo tiene fortalezas y debilidades en relación con otros tipos, lo cual se expresa en términos de efectividad de los movimientos:
+
+Súper Efectivo: Un movimiento que es muy efectivo contra el tipo del Pokémon oponente (por ejemplo, movimientos de Agua contra Pokémon de tipo Fuego).
+No Muy Efectivo: Un movimiento que es menos efectivo contra el tipo del Pokémon oponente (por ejemplo, movimientos de Planta contra Pokémon de tipo Fuego).
+Sin Efecto: Un movimiento que no afecta al tipo del Pokémon oponente (por ejemplo, movimientos de Normal contra Pokémon de tipo Fantasma).
+Estrategias en Batalla
+Comprender las estadísticas y los tipos de los Pokémon es crucial para desarrollar estrategias de batalla efectivas. Los entrenadores deben considerar:
+
+Equilibrio del Equipo: Tener un equipo balanceado con una variedad de tipos y roles para cubrir diferentes situaciones.
+Sinergia de Movimientos y Stats: Seleccionar movimientos que aprovechen las estadísticas más altas de un Pokémon.
+Contrarrestar Oponentes: Anticipar los tipos de los Pokémon del oponente y ajustar la estrategia en consecuencia.
