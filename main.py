@@ -12,12 +12,12 @@ config = {
 lola = LolaSDK(
     lola_token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJhdWQiOiJsb2NhbGhvc3QiLCJzdWIiOiI5OUwxT0JOc2xMN1dIM004Z2xsciIsImV4cCI6MTc1NDEzOTE1NDgxMiwiaWF0IjoxNzE4MTM5MTU0ODEyLCJkYXRhIjp7InRlbmFudElkIjoiOTlMMU9CTnNsTDdXSDNNOGdsbHIiLCJhc3Npc3RhbnRJZCI6ImlhcmRxekZQaXJhOUdqMVlUQTNIRVcifX0.XQw4dXxLyM3-mxKikRELtCrhKIfctI6HWSpRRm6vE3Q",
     prompter_url="https://lola-dev-v2.ue.r.appspot.com/",
-    webhook_url="https://377e-181-60-112-158.ngrok-free.app"
+    webhook_url="https://498e-181-60-112-158.ngrok-free.app"
 )
 
 
 @lola.on_command('get_pokemon_info')
-def handle_get_cryptocurrency_price(lead, ctx: LolaContext, cmd):
+def handle_get_pokemon_info(lead, ctx: LolaContext, cmd):
     pokemon_name = cmd['data']['args']['pokemon']
 
     ctx.messanger.send_typing_action()
@@ -29,9 +29,9 @@ def handle_get_cryptocurrency_price(lead, ctx: LolaContext, cmd):
         return {'data': f'Pokemon not found, maybe you write wrong the name, please check'}
     
     pokemon_data = response.json()
-    name = pokemon_data['name'].capitalize()
-    types = [pokemon_data['type']['name'].capitalize() for type_info in pokemon_data['types']]
-    abilities = [pokemon_data['ability']['name'].capitalize() for ability_info in pokemon_data['abilities']]
+    name = pokemon_data["name"].capitalize()
+    types = [tp["type"]["name"] for tp in pokemon_data["types"]]
+    abilities = [ab['ability']['name'].capitalize() for ab in pokemon_data['abilities']]
 
     types_str = ', '.join(types)
     abilities_str = ', '.join(abilities)
